@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.course.testng.DependTest">
+      <class name="com.course.testng.mutithread.ThreadTestAnotation">
         <methods>
-          <include name="test2"/>
           <include name="test1"/>
         </methods>
-      </class> <!-- com.course.testng.DependTest -->
+      </class> <!-- com.course.testng.mutithread.ThreadTestAnotation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
