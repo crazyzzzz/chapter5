@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [生成测试报告]">
+  <listeners>
+    <listener class-name="com.course.extent.demo.ExtentTestNGIReporterListenerOld"/>
+  </listeners>
+  <test thread-count="5" name="相关测试报告生成(failed)">
+    <classes>
+      <class name="com.course.extent.demo.TestDemoMethods">
+        <methods>
+          <include name="test3"/>
+          <include name="test1"/>
+          <include name="logDemo"/>
+        </methods>
+      </class> <!-- com.course.extent.demo.TestDemoMethods -->
+    </classes>
+  </test> <!-- 相关测试报告生成(failed) -->
+</suite> <!-- Failed suite [生成测试报告] -->
